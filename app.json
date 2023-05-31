@@ -2,18 +2,19 @@
     "name": "SoFe",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/Hamdani17/Php",
+    "repository": "https://github.com/Hamdani17",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
+        "php"
     ],
     "website": "https://github.com/Hamdani17/Php",
-        "env": {
-                },
+    "env": {
         "botToken": {
-            "description": "توكن البوت",
-            "value": "6022228026:AAH4MwFk3sNno832jZ9SorCsVbHBheK2c-0",
+            "description": "توكن",
+            "value": "",
             "required": true
         }
-        }
+    }
+}
