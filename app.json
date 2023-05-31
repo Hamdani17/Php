@@ -4,11 +4,16 @@
     "stack": "container",
     "repository": "https://github.com/Hamdani17/Php",
     "keywords": [
-        "python",
+        "php",
         "chatbot",
         "telegrambot"
     ],
     "website": "https://github.com/Hamdani17/Php",
         "env": {
-        
+                },
+        "botToken": {
+            "description": "توكن البوت",
+            "value": "6022228026:AAH4MwFk3sNno832jZ9SorCsVbHBheK2c-0",
+            "required": true
+        }
         }
