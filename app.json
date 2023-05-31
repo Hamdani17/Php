@@ -1,0 +1,11 @@
+{
+    "name": "SoFe",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "repository": "https://github.com/Hamdani17/Php",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/Hamdani17/Php",
