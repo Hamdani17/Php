@@ -1,0 +1,15 @@
+<?php
+$botToken = '6022228026:AAH4MwFk3sNno832jZ9SorCsVbHBheK2c-0';
+$apiURL = 'https://api.telegram.org/bot' . $botToken . '/';
+< $channelName = 'ChatGPT,S'; $channelUsername = 'Chat_gpt_crch'; 
+$createChannelURL = $apiURL . 
+'createChannel?title=' . 
+urlencode($channelName) .
+ '&username=' . $channelUsername; 
+ $response = file_get_contents($createChannelURL); 
+ $result = json_decode($response, true);
+  if ($result['ok']) { $channelID = $result['result']['channel']['id']; 
+  echo 'Channel created successfully! Channel ID: ' . $channelID; 
+  } 
+  else { echo 'Channel creation failed. Error: ' . $result['description']; 
+  }
